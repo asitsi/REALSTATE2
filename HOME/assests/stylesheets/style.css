@@ -1,0 +1,230 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.A{
+	background-color: #E0E0E5;
+	height: auto;
+}
+.B{
+	padding-top: 2%;
+}
+.Sidemenu {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	padding-top: 12%;
+}
+.Sidemenu i{
+	color: red;
+	padding-top: 2%;
+
+}
+.sidemenu{
+
+	height: 100%;
+	background-color: red;
+	width: 0px;
+	position: fixed;
+	top:0;
+	left: 0px;
+	overflow-x:hidden;
+	transition: all 0.6s;
+	font-size: 18px; 
+}
+.sidemenu a{
+	text-decoration: none;
+	color:white;
+	display: block;
+	margin: 20px;
+	text-align: center;
+
+}
+.portpholio{
+	background-color: #FAFAFE;
+	height: auto;
+	width: auto;
+}
+.card-tittle:hover{
+	color: red;
+}
+.portpholio_button{
+	background-color: transparent;
+	border:1px solid red;
+	width: 100px;
+	height: 30px;
+	font-size: 13px;
+	color: red;
+}
+ .portpholio_button:hover {
+background-color: red;
+color: white;
+}
+.bottom{
+	background-color: #606063;
+}
+.bottom_icons{
+	border:0px solid black;
+	height: 41px;
+	width: 41px;
+	background-color: #4D4D58;
+	color: white;
+	padding-top:2%;
+	padding-left: 2%;
+	margin: 1%;
+	font-size: 16px;
+	border-radius: 5%;
+}
+.bottom_icons:hover{
+	background-color:#F95649;
+	color: white;
+}
+.bottom_icons2{
+	font-size: 14px;
+	color: white;
+	margin:0%;
+}
+.bottom_icons2:hover{
+	color:#F95649;
+}
+.bottom_contect a{
+	padding:  4%;
+}
+.first_walpaper{
+	border:1px solid  #FD4D4D;
+	height: 422px;
+	width: 100%;
+	background-color: #FD4D4D;
+	padding: 5%;
+	color: white;
+	padding-left: 10%;
+}
+.first_walpaper1{
+	background-image: url('https://tokyo.wpresidence.net/wp-content/uploads/2014/05/tokyo-fuji-mountain-and-sakura-flower-hd-wallpaper-desktop-1024x640.jpg');
+background-size: cover;
+height: 422px;
+width: 100%;
+}
+.first_walpaper4{
+	background-image: url('https://tokyo.wpresidence.net/wp-content/uploads/2014/05/Tokyo_shutterstock_RF_118134214-1024x584.jpg');
+	background-size: cover;
+	height: 422px;
+width: 100%;
+}
+.first_walpaper2{
+	background-color: #BFBABA;
+	border:0px solid  #FD4D4D;
+	height: 422px;
+	width: 100%;
+	padding: 5%;
+	color: white;
+	padding-left: 10%;
+}
+.responsive{
+	width: 100%;
+	height: auto;
+}
+.row-equal>div[class*='col-']{
+	display: flex;
+	flex:1 0 auto;
+}
+.row-equal .card{
+	width: 100%;
+}
+.carousel-inner>.row-equal.active,
+.carousel-inner>.row-equal.next,
+.carousel-inner>.row-equal.prev{
+	display: flex;
+}
+.carousel-inner>.row-equal.active.left,
+.carousel-inner>.row-equal.active.right{
+	opacity: 0.5;
+	display: flex;
+}
+.card-img-top-250{
+	max-height: 250px;
+	overflow: hidden;
+}
+.card-header{
+
+}
+.kk1{
+	border:1px solid black;
+	border-left: none; 
+	height: 329px;
+	width: 540px;
+}
+
+.kk2{
+	background-image: url('https://tokyo.wpresidence.net/wp-content/uploads/2014/05/architecture-interior-modern-design-modern-interior-designer-525x328.jpg');
+height: 328px;
+width: 269px;
+}
+.kk3{
+	border:1px solid black;
+	border-left: none; 
+	height: 329px;
+	width: 540px;
+}
+.kk4{
+	background-image: url('https://tokyo.wpresidence.net/wp-content/uploads/2014/05/beach-home-interior-design-on-great-home-design-3-525x328.jpg');
+height: 328px;
+width: 269px;
+}
+.upper_bottom{
+	background-color: #E8E5E2;
+	height: auto;
+	width: auto;
+	padding-top: 2%;
+}
+.item_type2{
+	background-image: url('https://tokyo.wpresidence.net/wp-content/uploads/2014/05/Green-theme-interior-design-for-new-home-1600x790.jpg');
+	height: 600px; width: 100%;
+	background-size: cover;
+}
+.item_type3{
+	background-image: url('https://tokyo.wpresidence.net/wp-content/uploads/2014/05/beach-home-interior-design-on-great-home-design-3-1920x790.jpg');
+	height: 600px; width: 100%;
+	background-size: cover;
+}
+.item_type4{
+background-image: url('https://tokyo.wpresidence.net/wp-content/uploads/2014/05/new_house-1920x790.jpeg');
+	height: 600px; width: 100%;
+	background-size: cover;
+
+}
+
+.item_type5{
+background-image: url('https://tokyo.wpresidence.net/wp-content/uploads/2014/05/Resident_house_Interior_decoration-1920x790.jpg');
+	height: 600px; width: 100%;
+	background-size: cover;
+
+}
+
+.item_type6{
+    background-image: url('https://tokyo.wpresidence.net/wp-content/uploads/2014/05/living-room-best-d…ins-amazing-ceiling-light-living-room-decor-ideas-2015-design-1496x790.jpg');
+	height: 600px; width: 100%;
+	background-size: cover;
+}
+.testimonial-image{
+	background-image:url('F:\REALSTATE2\HOME\assests\images\is.jpg');
+	border-radius: 50%;
+}
+.center{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+
+
+
+
+
+/*
+<div class="prop_new_details" data-href="https://tokyo.wpresidence.net/properties/gorgeous-farm-in-jersey/">
+<div class="prop_new_details_back"></div>
+<div class="prop_new_detals_info">
+<div class="theme-slider-price">*/
